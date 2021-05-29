@@ -1,0 +1,8 @@
+1) Install conda environment for library compatibility:
+conda env create -f sensor_env.yml
+
+2) Add environment to your jupyter notebook
+source activate sensor
+python -m ipykernel install --user --name sensor --display-name "sensor"
+
+3) Use this kernel (sensor) when launching the notebook
