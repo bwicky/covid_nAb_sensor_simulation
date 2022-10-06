@@ -17,4 +17,4 @@ source activate sensor
 python -m ipykernel install --user --name sensor --display-name "sensor"
 ```
 
-3) Use this kernel (sensor) when launching the notebook.
+3) Use this kernel `sensor` when launching the notebook.
